@@ -1,0 +1,78 @@
+body {
+  background-image: linear-gradient(294deg, #7c5af7, #ff5722);
+}
+h1 {
+  background-image: linear-gradient(45deg, #e91e63, #3f51b5);
+  color: #ffeb3b;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.board {
+  background-color: #ffeb3b;
+  padding: 10px;
+  position: relative;
+  width: 80%;
+}
+
+.thedice {
+  padding: 50px;
+  position: absolute;
+  bottom: 400px;
+  height: 70px;
+  width: 70px;
+}
+
+.theboard {
+  height: 50%;
+  width: 50%;
+}
+
+.roller {
+  position: absolute;
+  bottom: 150px;
+  left: 650px;
+  display: flex;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.roller:hover {
+  background-color: #3e8e41;
+}
+
+.roller:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.texter {
+  font-size: 150%;
+  font-family: fantasy;
+}
+
+.displayer {
+  position: absolute;
+  bottom: 350px;
+  left: 650px;
+  font-size: 150%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.displayerwin {
+  position: absolute;
+  bottom: 280px;
+  left: 650px;
+  font-size: 150%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}
