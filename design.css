@@ -1,9 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
 body {
   background-image: linear-gradient(294deg, #7c5af7, #ff5722);
 }
 h1 {
   background-image: linear-gradient(45deg, #e91e63, #3f51b5);
   color: #ffeb3b;
+  font-size: 4rem;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -15,11 +23,10 @@ h1 {
 }
 
 .thedice {
-  padding: 50px;
+  width: 7%;
   position: absolute;
-  bottom: 400px;
-  height: 70px;
-  width: 70px;
+  top: 20%;
+  left: 55%;
 }
 
 .theboard {
@@ -29,23 +36,23 @@ h1 {
 
 .roller {
   position: absolute;
-  bottom: 150px;
-  left: 650px;
-  display: flex;
-  padding: 15px 25px;
-  font-size: 24px;
+  font-size: 2rem;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  top: 65%;
+  left: 55%;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4caf50;
+  background: rgb(42, 184, 240);
   border: none;
-  border-radius: 15px;
+  border-radius: 2.1rem;
   box-shadow: 0 9px #999;
 }
 .roller:hover {
-  background-color: #3e8e41;
+  background-color: #7199f1;
 }
 
 .roller:active {
@@ -55,23 +62,26 @@ h1 {
 }
 
 .texter {
-  font-size: 150%;
+  font-size: 5rem;
   font-family: fantasy;
 }
 
 .displayer {
   position: absolute;
-  bottom: 350px;
-  left: 650px;
-  font-size: 150%;
+  padding: 1rem;
+  font-size: 2.5rem;
+  top: 35%;
+  left: 55%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 .displayerwin {
+  padding: 1rem;
+  margin: 3rem;
   position: absolute;
-  bottom: 280px;
-  left: 650px;
-  font-size: 150%;
+  font-size: 3rem;
+  top: 43%;
+  left: 52%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-style: italic;
